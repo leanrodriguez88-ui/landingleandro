@@ -1,30 +1,401 @@
 <!DOCTYPE html>
+
 <html lang="es">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#080808">
-<title>Únete a mi equipo | Leandro Rodriguez · FuXion</title>
-<style>
-:root{--purple:#936fff;--ink:#f6f6f6;--muted:#c9c9c9}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#080808;color:var(--ink);overflow-x:hidden}.wrap{width:min(100% - 36px,860px);margin-inline:auto}.hero{background:#000;border-bottom:1px solid #292929;padding:64px 0 55px;text-align:center}.eyebrow,.step{color:#b3a0ff;font-weight:800;letter-spacing:1.6px;font-size:13px}h1{font-size:clamp(36px,7vw,60px);line-height:1.07;margin:18px 0}h1 span{color:#b3a0ff}.hero p{font-size:clamp(17px,2.5vw,21px);line-height:1.5;max-width:640px;margin:16px auto 22px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-align:center;text-decoration:none;font-size:16px;font-weight:800;border-radius:11px;padding:17px 24px;min-height:55px;transition:transform .2s}.btn:hover{transform:translateY(-2px)}.primary{background:var(--purple);color:#090909}.secondary{background:#181818;color:white;border:1px solid #777}.hint{display:block;margin-top:16px;color:#bcbcbc;font-size:13px}.content{padding:46px 0 30px}.video-section{margin-bottom:50px}.video-section h2{font-size:clamp(24px,4vw,34px);margin:8px 0 12px}.video-section p{margin:0 0 18px;color:var(--muted);line-height:1.6}.video{background:#171717;border:1px solid #373737;border-radius:14px;overflow:hidden}.video.youtube{aspect-ratio:16/9}.video.youtube iframe{display:block;width:100%;height:100%;border:0}.tiktok-wrap{display:flex;justify-content:center}.video.tiktok{width:min(100%,370px);aspect-ratio:325/578}.video.tiktok iframe{display:block;width:100%;height:100%;border:0}.cta{background:#111;border-top:1px solid #333;text-align:center;padding:48px 16px 65px}.cta h2{font-size:clamp(27px,5vw,42px);margin:0 0 12px}.cta p{font-size:17px;color:#d6d6d6;margin:0 0 24px}.actions{display:flex;flex-direction:column;gap:12px;max-width:440px;margin:auto}footer{text-align:center;padding:23px 18px 92px;background:#000;color:#aaa;font-size:12px;line-height:1.6}.wa-float{position:fixed;bottom:20px;right:20px;z-index:99;display:flex;align-items:center;gap:10px;padding:13px 17px;border-radius:100px;background:#25d366;color:#06230f;text-decoration:none;font-size:14px;font-weight:800;box-shadow:0 6px 24px #0008}.wa-float svg{width:23px;height:23px;flex:none}@media(max-width:600px){.hero{padding:46px 0 42px}.wrap{width:min(100% - 30px,860px)}.content{padding-top:34px}.video-section{margin-bottom:38px}.btn{width:100%}.wa-float{right:12px;bottom:12px;padding:13px 15px;font-size:13px}.cta{padding-bottom:45px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
-</style>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Productos, Negocio y Emprendimiento con Leandro Rodriguez</title>
+    <meta
+        content="Conoce FuXion en Bolivia con Leandro Rodriguez: productos, ventas digitales, comisiones y oportunidad de emprendimiento. Mira 2 videos y consulta por WhatsApp."
+        name="description" />
+    <meta
+        content="FuXion, FuXion Bolivia, Leandro Rodriguez, negocio FuXion, productos FuXion, emprendimiento Bolivia, ventas digitales, comisiones FuXion, plan de compensación FuXion, marketing de redes, formación de equipos, nutrición funcional"
+        name="keywords" />
+    <meta content="Leandro Rodriguez" name="author" />
+    <meta content="index, follow, max-image-preview:large" name="robots" />
+    <meta content="#080808" name="theme-color" />
+    <meta content="website" property="og:type" />
+    <meta content="es_BO" property="og:locale" />
+    <meta content="Leandro Rodriguez | FuXion" property="og:site_name" />
+    <meta content="Productos, Negocio y Emprendimiento con Leandro Rodriguez" property="og:title" />
+    <meta
+        content="Conoce FuXion en Bolivia con Leandro Rodriguez: productos, ventas digitales, comisiones y oportunidad de emprendimiento. Mira 2 videos y consulta por WhatsApp."
+        property="og:description" />
+    <meta content="https://leandrorodriguez.netlify.app/" property="og:url" />
+    <meta content="https://leandrorodriguez.netlify.app/lean.jpeg" property="og:image" />
+    <meta content="https://leandrorodriguez.netlify.app/lean.jpeg" property="og:image:secure_url" />
+    <meta content="image/jpeg" property="og:image:type" />
+    <meta content="Leandro Rodriguez | Emprendimiento y negocio FuXion" property="og:image:alt" />
+    <meta content="summary_large_image" name="twitter:card" />
+    <meta content="Productos, Negocio y Emprendimiento con Leandro Rodriguez" name="twitter:title" />
+    <meta
+        content="Conoce FuXion en Bolivia con Leandro Rodriguez: productos, ventas digitales, comisiones y oportunidad de emprendimiento. Mira 2 videos y consulta por WhatsApp."
+        name="twitter:description" />
+    <meta content="https://leandrorodriguez.netlify.app/lean.jpeg" name="twitter:image" />
+    <meta content="Leandro Rodriguez | Emprendimiento FuXion" name="twitter:image:alt" />
+    <link href="https://leandrorodriguez.netlify.app/" rel="canonical" />
+    <link href="https://leandrorodriguez.netlify.app/lean.jpeg" rel="icon" />
+    <link href="https://leandrorodriguez.netlify.app/lean.jpeg" rel="apple-touch-icon" />
+    <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://leandrorodriguez.netlify.app/#website",
+      "url": "https://leandrorodriguez.netlify.app/",
+      "name": "Leandro Rodriguez | FuXion",
+      "inLanguage": "es-BO",
+      "description": "Conoce FuXion en Bolivia con Leandro Rodriguez: productos, ventas digitales, comisiones y oportunidad de emprendimiento. Mira 2 videos y consulta por WhatsApp."
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://leandrorodriguez.netlify.app/#webpage",
+      "url": "https://leandrorodriguez.netlify.app/",
+      "name": "Productos, Negocio y Emprendimiento con Leandro Rodriguez",
+      "description": "Conoce FuXion en Bolivia con Leandro Rodriguez: productos, ventas digitales, comisiones y oportunidad de emprendimiento. Mira 2 videos y consulta por WhatsApp.",
+      "inLanguage": "es-BO",
+      "isPartOf": {
+        "@id": "https://leandrorodriguez.netlify.app/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://leandrorodriguez.netlify.app/lean.jpeg"
+      },
+      "about": [
+        {
+          "@type": "Thing",
+          "name": "FuXion"
+        },
+        {
+          "@type": "Thing",
+          "name": "Emprendimiento y ventas digitales"
+        }
+      ],
+      "mainEntity": {
+        "@type": "Person",
+        "name": "Leandro Rodriguez",
+        "description": "Contacto independiente para conocer la oportunidad de emprendimiento FuXion"
+      }
+    }
+  ]
+}</script>
+    <style>
+        :root {
+            --purple: #936fff;
+            --ink: #f6f6f6;
+            --muted: #c9c9c9
+        }
+
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080808;
+            color: var(--ink);
+            overflow-x: hidden
+        }
+
+        .wrap {
+            width: min(100% - 36px, 860px);
+            margin-inline: auto
+        }
+
+        .hero {
+            background: #000;
+            border-bottom: 1px solid #292929;
+            padding: 64px 0 55px;
+            text-align: center
+        }
+
+        .eyebrow,
+        .step {
+            color: #b3a0ff;
+            font-weight: 800;
+            letter-spacing: 1.6px;
+            font-size: 13px
+        }
+
+        h1 {
+            font-size: clamp(36px, 7vw, 60px);
+            line-height: 1.07;
+            margin: 18px 0
+        }
+
+        h1 span {
+            color: #b3a0ff
+        }
+
+        .hero p {
+            font-size: clamp(17px, 2.5vw, 21px);
+            line-height: 1.5;
+            max-width: 640px;
+            margin: 16px auto 22px
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 800;
+            border-radius: 11px;
+            padding: 17px 24px;
+            min-height: 55px;
+            transition: transform .2s
+        }
+
+        .btn:hover {
+            transform: translateY(-2px)
+        }
+
+        .primary {
+            background: var(--purple);
+            color: #090909
+        }
+
+        .secondary {
+            background: #181818;
+            color: white;
+            border: 1px solid #777
+        }
+
+        .hint {
+            display: block;
+            margin-top: 16px;
+            color: #bcbcbc;
+            font-size: 13px
+        }
+
+        .content {
+            padding: 46px 0 30px
+        }
+
+        .video-section {
+            margin-bottom: 50px
+        }
+
+        .video-section h2 {
+            font-size: clamp(24px, 4vw, 34px);
+            margin: 8px 0 12px
+        }
+
+        .video-section p {
+            margin: 0 0 18px;
+            color: var(--muted);
+            line-height: 1.6
+        }
+
+        .video {
+            background: #171717;
+            border: 1px solid #373737;
+            border-radius: 14px;
+            overflow: hidden
+        }
+
+        .video.youtube {
+            aspect-ratio: 16/9
+        }
+
+        .video.youtube iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+
+        .tiktok-wrap {
+            display: flex;
+            justify-content: center
+        }
+
+        .video.tiktok {
+            width: min(100%, 370px);
+            aspect-ratio: 325/578
+        }
+
+        .video.tiktok iframe {
+            display: block;
+            width: 100%;
+            height: 100%;
+            border: 0
+        }
+
+        .cta {
+            background: #111;
+            border-top: 1px solid #333;
+            text-align: center;
+            padding: 48px 16px 65px
+        }
+
+        .cta h2 {
+            font-size: clamp(27px, 5vw, 42px);
+            margin: 0 0 12px
+        }
+
+        .cta p {
+            font-size: 17px;
+            color: #d6d6d6;
+            margin: 0 0 24px
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            max-width: 440px;
+            margin: auto
+        }
+
+        footer {
+            text-align: center;
+            padding: 23px 18px 92px;
+            background: #000;
+            color: #aaa;
+            font-size: 12px;
+            line-height: 1.6
+        }
+
+        .wa-float {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 99;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 13px 17px;
+            border-radius: 100px;
+            background: #25d366;
+            color: #06230f;
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 800;
+            box-shadow: 0 6px 24px #0008
+        }
+
+        .wa-float svg {
+            width: 23px;
+            height: 23px;
+            flex: none
+        }
+
+        @media(max-width:600px) {
+            .hero {
+                padding: 46px 0 42px
+            }
+
+            .wrap {
+                width: min(100% - 30px, 860px)
+            }
+
+            .content {
+                padding-top: 34px
+            }
+
+            .video-section {
+                margin-bottom: 38px
+            }
+
+            .btn {
+                width: 100%
+            }
+
+            .wa-float {
+                right: 12px;
+                bottom: 12px;
+                padding: 13px 15px;
+                font-size: 13px
+            }
+
+            .cta {
+                padding-bottom: 45px
+            }
+        }
+
+        @media(prefers-reduced-motion:reduce) {
+            html {
+                scroll-behavior: auto
+            }
+
+            .btn {
+                transition: none
+            }
+        }
+    </style>
 </head>
+
 <body>
-<header class="hero"><div class="wrap">
-<div class="eyebrow">NEGOCIOS DIGITALES · FUXION</div>
-<h1>¡ÚNETE A <span>MI EQUIPO!</span></h1>
-<p>Hola, soy <strong>Leandro Rodriguez</strong>. Quiero mostrarte una oportunidad para emprender con el apoyo de un equipo.</p>
-<p><strong>Te comparto 2 videos cortos para que conozcas el negocio.</strong></p>
-<a class="btn primary" href="#videos">VER LOS 2 VIDEOS ↓</a>
-<span class="hint">No necesitas experiencia previa para conocer la oportunidad.</span>
-</div></header>
-<main class="wrap content" id="videos">
-<section class="video-section"><div class="step">VIDEO 1 DE 2</div><h2>Descubre las ventas digitales</h2><p>Conoce una forma de desarrollar un negocio utilizando internet.</p><div class="video youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/XMFWLG8Sc98?si=0fn0fUoWJB6trFTp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div></section>
-<section class="video-section"><div class="step">VIDEO 2 DE 2</div><h2>¿Qué es FuXion y cómo funciona?</h2><p>Descubre los productos, el modelo de negocio y cómo se generan las comisiones.</p><div class="tiktok-wrap"><div class="video tiktok"><iframe height="578" width="325" src="https://www.tiktok.com/player/v1/7532332255528668422?embed_from=webapp_share&amp;music_info=1&amp;description=1&amp;autoplay=1&amp;muted=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture; web-share" title="Qué es FuXion, cómo funciona y cómo se gana" allowfullscreen loading="lazy"></iframe></div></div></section>
-</main>
-<section class="cta" id="unirme"><div class="wrap"><h2>¿Te interesa ser parte del equipo?</h2><p>Elige cómo quieres continuar:</p><div class="actions"><a class="btn primary" href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20vi%20los%20videos%20y%20quiero%20unirme%20a%20tu%20equipo%20FuXion." target="_blank" rel="noopener noreferrer">QUIERO UNIRME AL EQUIPO →</a><a class="btn secondary" href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20negocio%20FuXion." target="_blank" rel="noopener noreferrer">💬 TENGO PREGUNTAS · WHATSAPP</a></div></div></section>
-<footer>FuXion · Oportunidad de emprendimiento independiente. Los ingresos dependen de las ventas y resultados individuales; no están garantizados.</footer>
-<a class="wa-float" href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20negocio%20FuXion." target="_blank" rel="noopener noreferrer" aria-label="Más info del negocio por WhatsApp"><svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16 .8A15.1 15.1 0 0 0 3 23.6L.9 31l7.6-2A15.2 15.2 0 1 0 16 .8zm0 27.6a12.4 12.4 0 0 1-6.3-1.7l-.4-.3-4.5 1.2 1.2-4.4-.3-.4A12.4 12.4 0 1 1 16 28.4zm6.8-9.3c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.7c-.3-.7-.6-.6-.9-.6h-.7c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.5 1.5 3.7c.2.3 2.6 4 6.3 5.6.9.4 1.6.6 2.2.7.9.3 1.7.2 2.4.2.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z"/></svg><span>Más info del negocio</span></a>
+    <header class="hero">
+        <div class="wrap">
+            <div class="eyebrow">EMPRENDIMIENTO · VENTAS DIGITALES · FUXION</div>
+            <h1>¡ÚNETE A <span>MI EQUIPO FUXION!</span></h1>
+            <p>Hola, soy <strong>Leandro Rodriguez</strong>. ¿Te gustaría conocer una oportunidad para emprender,
+                aprender sobre ventas digitales y desarrollar tu propio negocio con el apoyo de un equipo?</p>
+            <p><strong>Te comparto 2 videos donde descubrirás cómo funciona FuXion, qué productos ofrece y cómo se
+                    pueden generar comisiones mediante las ventas.</strong></p>
+            <a class="btn primary" href="#videos">VER LOS 2 VIDEOS ↓</a>
+            <span class="hint">No necesitas experiencia previa. Conoce la oportunidad, resuelve tus dudas y decide si es
+                para ti.</span>
+        </div>
+    </header>
+    <main class="wrap content" id="videos">
+        <section class="video-section">
+            <div class="step">VIDEO 1 DE 2</div>
+            <h2>Ventas digitales: conoce una forma de emprender</h2>
+            <p>Descubre cómo las herramientas digitales pueden ayudarte a presentar productos y conectar con potenciales
+                clientes.</p>
+            <div class="video youtube"><iframe
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen="" frameborder="0" height="315" loading="lazy"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    src="https://www.youtube.com/embed/XMFWLG8Sc98?si=0fn0fUoWJB6trFTp" title="YouTube video player"
+                    width="560"></iframe></div>
+        </section>
+        <section class="video-section">
+            <div class="step">VIDEO 2 DE 2</div>
+            <h2>¿Qué es FuXion y cómo funciona su negocio?</h2>
+            <p>Conoce los productos FuXion, las ventas, el modelo de negocio y cómo se calculan las comisiones según la
+                actividad comercial.</p>
+            <div class="tiktok-wrap">
+                <div class="video tiktok"><iframe
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; fullscreen; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen="" frameborder="0" height="578" loading="lazy"
+                        src="https://www.tiktok.com/player/v1/7532332255528668422?embed_from=webapp_share&amp;music_info=1&amp;description=1&amp;autoplay=1&amp;muted=1"
+                        title="Qué es FuXion, cómo funciona y cómo se gana" width="325"></iframe></div>
+            </div>
+        </section>
+    </main>
+    <section class="cta" id="unirme">
+        <div class="wrap">
+            <h2>¿Te interesa ser parte del equipo?</h2>
+            <p>Elige cómo quieres continuar:</p>
+            <div class="actions"><a class="btn primary"
+                    href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20vi%20los%20videos%20y%20quiero%20unirme%20a%20tu%20equipo%20FuXion."
+                    rel="noopener noreferrer" target="_blank">QUIERO UNIRME AL EQUIPO →</a><a class="btn secondary"
+                    href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20negocio%20FuXion."
+                    rel="noopener noreferrer" target="_blank">💬 TENGO PREGUNTAS · WHATSAPP</a></div>
+        </div>
+    </section>
+    <footer>FuXion · Oportunidad de emprendimiento independiente. Los ingresos dependen de las ventas y resultados
+        individuales; no están garantizados.</footer>
+    <a aria-label="Más info del negocio por WhatsApp" class="wa-float"
+        href="https://wa.me/59170801230?text=Hola%20Leandro%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20el%20negocio%20FuXion."
+        rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="currentColor" viewbox="0 0 32 32">
+            <path
+                d="M16 .8A15.1 15.1 0 0 0 3 23.6L.9 31l7.6-2A15.2 15.2 0 1 0 16 .8zm0 27.6a12.4 12.4 0 0 1-6.3-1.7l-.4-.3-4.5 1.2 1.2-4.4-.3-.4A12.4 12.4 0 1 1 16 28.4zm6.8-9.3c-.4-.2-2.2-1.1-2.6-1.2-.3-.1-.6-.2-.9.2-.3.4-1 1.2-1.2 1.4-.2.2-.4.3-.8.1-.4-.2-1.6-.6-3-1.9-1.1-1-1.9-2.2-2.1-2.6-.2-.4 0-.6.2-.8l.6-.7.4-.6c.1-.2 0-.5 0-.7l-1.2-2.7c-.3-.7-.6-.6-.9-.6h-.7c-.3 0-.7.1-1 .5-.3.4-1.3 1.3-1.3 3.1s1.3 3.5 1.5 3.7c.2.3 2.6 4 6.3 5.6.9.4 1.6.6 2.2.7.9.3 1.7.2 2.4.2.7-.1 2.2-.9 2.5-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5z">
+            </path>
+        </svg><span>Más info del negocio</span></a>
 </body>
+
 </html>
